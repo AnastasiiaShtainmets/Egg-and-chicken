@@ -33,7 +33,7 @@ class AnimalThread extends Thread {
         Thread.currentThread().setName(Name);
         for (int i = 0; i < distance; i++) {
             try {
-                Thread.sleep(5);
+                Thread.sleep(5000);
                 System.out.println(getName());
 
             } catch (InterruptedException e) {
